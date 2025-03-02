@@ -6,16 +6,16 @@ import { AppComponent } from './app.component';
 import { NewAppointmentComponent } from './new-appointment/new-appointment.component';
 import { AppointmentListComponent } from './appointment-list/appointment-list.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-
 import { FormsModule } from '@angular/forms';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NewAppointmentComponent,
     AppointmentListComponent,
-    DashboardComponent
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,

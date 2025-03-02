@@ -3,5 +3,5 @@
 body{
     background-color: black;
     background-image: url(../src/assets/img/bg.png);
-    background-size: contain;
+    background-size: cover;
 }
